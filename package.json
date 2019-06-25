@@ -16,7 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "consolidate": "0.15.1",
+    "ejs": "^2.6.1",
     "express": "^4.14.0",
-    "mongoose": "^4.6.7"
+    "mongoose": "^4.6.7",
+    "mustache": "^2.2.1"
   }
 }
