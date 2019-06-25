@@ -15,8 +15,8 @@ app.set('view engine', 'html');
 
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-//mongoose.connect("mongodb://localhost:27017/node-demo");
-mongoose.connect("mongodb://node-demo-test:aAYQIPrKRYprVC1aL3LPU70iNg87LQbJDaworr4MM080sGxOD4zO35RDPqAIzPQhUQJ1e5BTSoMvoDGtoc9U9g==@node-demo-test.documents.azure.com:10255/?ssl=true&replicaSet=globaldb/node-demo");
+mongoose.connect("mongodb://localhost:27017/node-demo");
+//mongoose.connect("mongodb://node-demo-test:aAYQIPrKRYprVC1aL3LPU70iNg87LQbJDaworr4MM080sGxOD4zO35RDPqAIzPQhUQJ1e5BTSoMvoDGtoc9U9g==@node-demo-test.documents.azure.com:10255/?ssl=true&replicaSet=globaldb/node-demo");
 var nameSchema = new mongoose.Schema({
     firstName: String,
     lastName: String
