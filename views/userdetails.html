@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Retrieve Details from MongoDB</title>
+    </head>
+
+    <body>
+        <h2>Users</h2>
+	<ul>
+	<!--<table>
+	<tbody>
+         <tr ng-repeat="{% user in userdata %}">
+          <td> 
+            <p>1. {{user}}</p>
+          </td>
+        </tr> 
+		<tr>2. {{userdata}}</tr>
+      </tbody>
+	  </table>
+	{{userdata.length}}-->
+	 
+	 <ul>
+	<% userdata.forEach(function(User) { %>
+    <li>FirstName: <%= User.firstName %>  LastName: <%= User.lastName %></li>
+	<% }); %>
+	</ul>
+    </body>
+</html>
