@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/82abb7f3-ffd3-421c-bfc2-39be7fd04b39/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/node-demo2-appservice",
+    "appService.deploySubpath": ""
+}

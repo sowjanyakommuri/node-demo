@@ -1,0 +1,15 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <title>Retrieve Details from MongoDB</title>
+    </head>
+
+    <body>
+        <h2>Users</h2>
+	<ul>
+	<% userdata.forEach(function(User) { %>
+    <li>FirstName: <%= User.firstName %>  LastName: <%= User.lastName %></li>
+	<% }); %>
+	</ul>
+    </body>
+</html>
